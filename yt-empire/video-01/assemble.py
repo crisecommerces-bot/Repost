@@ -37,22 +37,22 @@ def CA(img, w=1.0, src_dir=G):       return dict(m="card", src=f"{src_dir}/{img}
 def B(name, w=1.0):                  return dict(m="kb", src=f"{G}/bust-{name}.png", w=w, z="in")
 
 SEG = {
- 1: [C("V1B.mp4",0.0,1.0), C("V1B.mp4",1.4,0.9,"z"), C("V1B.mp4",2.4,0.9), CA("K1.png",0.8), CA("K2.png",0.8), CA("K3.png",0.9), B("shock",0.8)],
+ 1: [C("V1C.mp4",0.0,1.0), C("V1C.mp4",1.4,0.9,"z"), C("V1C.mp4",2.4,0.9), CA("K1.png",0.8), CA("K2.png",0.8), CA("K3.png",0.9), B("shock",0.8)],
  2: [B("think",0.9), CA("K4.png",1.1), KB("Z10.png",0.9), KB("Z6.png",1.0), KB("Z6.png",0.8,"out"), CA("K5.png",1.0), B("point",0.9), CA("KRING.png",0.7)],
  3: [CA("K6.png",0.9), KB("Z1.png",1.1), KB("Z2.png",1.1), KB("Z3.png",1.1), CA("K7.png",1.0), KB("Z4.png",1.1),
      C("V2.mp4",0.0,1.1), C("V2.mp4",2.8,1.1), C("V2.mp4",5.4,1.1), C("V4.mp4",0.0,1.0,"z"), B("shock",0.8), B("excited",0.9),
      C("V2.mp4",4.0,1.0,"z"), KB("Z4.png",0.9,"out"), CA("K8.png",1.0), KB("N5.png",1.1), C("V4.mp4",3.0,1.1,"z"), KB("Z11.png",1.1), B("think",0.9), CA("K9b.png",1.0)],
- 4: [CA("K9.png",1.1), B("neutral",0.9), KB("Z4.png",1.0,"out"), C("V3.mp4",0.0,1.1), CA("K10.png",1.0), B("point",0.9),
-     C("V3.mp4",3.0,1.1), C("V3.mp4",5.2,1.1,"z"), KB("Z4.png",0.9), KB("N5.png",1.0,"out"), C("V4.mp4",0.0,1.1),
+ 4: [CA("K9.png",1.1), B("neutral",0.9), KB("Z4.png",1.0,"out"), C("V3B.mp4",0.0,1.1), CA("K10.png",1.0), B("point",0.9),
+     C("V3B.mp4",3.0,1.1), C("V3B.mp4",5.2,1.1,"z"), KB("Z4.png",0.9), KB("N5.png",1.0,"out"), C("V4.mp4",0.0,1.1),
      C("V4.mp4",3.0,1.1), CA("K11.png",1.0), KB("Z11.png",1.0), C("V4.mp4",5.4,1.0,"z"), KB("Z11.png",0.9,"out"), B("think",0.8), C("V4.mp4",1.5,1.1)],
  5: [B("shock",0.9), C("V5.mp4",0.0,1.1), C("V5.mp4",2.6,1.0), CA("K12a.png",0.8), CA("K5.png",1.0), B("think",0.9),
      KB("Z6.png",1.0), KB("Z6.png",0.9,"out"), C("V5.mp4",1.8,1.1,"z"), CA("K12b.png",0.8), KB("Z7.png",1.1), KB("Z7.png",0.9,"out"),
-     C("V5.mp4",3.8,1.1), CA("K12c.png",0.8), C("V3.mp4",3.2,1.0), KB("Z8.png",1.1), C("V5.mp4",5.6,1.1)],
- 6: [B("point",0.9), C("V4.mp4",1.0,1.0), B("neutral",0.8), C("V6.mp4",0.0,1.0), C("V6.mp4",1.6,1.0,"z"), C("V6.mp4",0.6,1.0), B("excited",0.8), C("V6.mp4",0.3,1.0,"z"), CA("KCTA.png",1.0)],
+     C("V5.mp4",3.8,1.1), CA("K12c.png",0.8), C("V3B.mp4",3.2,1.0), KB("Z8.png",1.1), C("V5.mp4",5.6,1.1)],
+ 6: [B("point",0.9), C("V4.mp4",1.0,1.0), B("neutral",0.8), C("V6.mp4",0.0,1.0,"zl"), C("V6.mp4",1.6,1.0,"zl"), C("V6.mp4",0.6,1.0,"zl"), B("excited",0.8), C("V6.mp4",0.3,1.0,"z"), CA("KCTA.png",1.0)],
  7: [B("excited",0.9), CA("K13.png",1.0), CA("KANY.png",0.9), CA("KEVERY.png",0.9), KB("Z9.png",1.1), KB("Z9.png",0.9,"out"),
      CA("K2.png",0.8), B("point",0.9), CA("K4.png",0.9), KB("Z3.png",1.0), KB("Z10.png",1.1), CA("K1IN4.png",1.0),
      B("excited",0.8), CA("K14.png",1.0), C("V4.mp4",3.4,1.0,"z"), CA("KFLAT.png",1.1), CA("K2.png",0.7)],
- 8: [B("neutral",0.9), C("V6.mp4",1.2,1.1), KB("Z9.png",0.8,"out"), B("wave",1.0), CA("KNEXT.png",0.9)],
+ 8: [B("neutral",0.9), C("V6.mp4",1.2,1.1,"zl"), KB("Z9.png",0.8,"out"), B("wave",1.0), CA("KNEXT.png",0.9)],
 }
 # head/tail visual-only padding per segment (sums to ~28s of designed pauses)
 PAD = {1:(0.3,0.7), 2:(0.4,1.8), 3:(0.5,5.4), 4:(0.5,5.6), 5:(0.5,6.4), 6:(0.4,2.2), 7:(0.5,5.4), 8:(0.3,0.2)}
@@ -63,13 +63,14 @@ def render_beat(idx, b, d):
     frames = max(int(round(d * FPS)), 6)
     common = f"-r {FPS} -pix_fmt yuv420p -c:v libx264 -preset veryfast -crf 20 -an -f mpegts '{out}'"
     if b["m"] == "clip":
-        crop = "crop=712:400:71:40," if b.get("crop") else ""
+        cmap = {"z": "crop=712:400:71:40,", "zl": "crop=712:400:0:40,", "zr": "crop=712:400:142:40,"}
+        crop = cmap.get(b.get("crop") or "", "")
         vf = f"{crop}scale={WI}:{HE}:flags=lanczos,setsar=1"
         sh(f"ffmpeg -y -v error -ss {b['tin']} -i '{b['src']}' -t {d} -vf \"{vf}\" {common}")
     else:
         zexpr = "min(zoom+0.0012,1.25)" if b.get("z","in")=="in" else "if(eq(on,1),1.25,max(zoom-0.0012,1.0))"
-        vf = (f"scale=2560:-1,zoompan=z='{zexpr}':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
-              f":s={WI}x{HE}:fps={FPS},setsar=1")
+        vf = (f"scale=5120:-1,zoompan=z='{zexpr}':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+              f":s={WI*2}x{HE*2}:fps={FPS},scale={WI}:{HE}:flags=lanczos,setsar=1")
         sh(f"ffmpeg -y -v error -loop 1 -i '{b['src']}' -t {d} -vf \"{vf}\" {common}")
     return out, frames / FPS
 
@@ -114,7 +115,7 @@ for s in range(1, 9):
 # ---- 4. end card (10s, silent) ----
 endv = f"{W}/end.ts"
 sh(f"ffmpeg -y -v error -loop 1 -i {G}/KEND.png -f lavfi -i anullsrc=r=44100:cl=stereo -t 10 "
-   f"-vf \"scale=2560:-1,zoompan=z='min(zoom+0.0008,1.12)':d={10*FPS}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={WI}x{HE}:fps={FPS},setsar=1\" "
+   f"-vf \"scale=5120:-1,zoompan=z='min(zoom+0.0008,1.12)':d={10*FPS}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={WI*2}x{HE*2}:fps={FPS},scale={WI}:{HE}:flags=lanczos,setsar=1\" "
    f"-r {FPS} -pix_fmt yuv420p -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -shortest -f mpegts {endv}")
 seg_files.append(endv)
 
