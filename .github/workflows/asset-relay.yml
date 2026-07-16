@@ -1,0 +1,19 @@
+name: asset-relay
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch assets
+        run: bash yt-empire/.relay/fetch.sh
+      - name: Commit assets
+        run: |
+          git config user.name "asset-relay"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "relay: fetch generated assets"
+          git push
