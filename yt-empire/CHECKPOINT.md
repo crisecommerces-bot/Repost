@@ -8,8 +8,8 @@ Session start (UTC): 2026-07-16
 | 2 — Brand + avatar | ✅ COMPLETE | HonestReps + mascot Rep; sheet, pfp, banner, watermark done (5cr) |
 | 3 — Monetization | ✅ COMPLETE | Speediance primary (~$110-185/sale), FitBudd + Trainerize backups |
 | 4 — Script + beat map | ✅ COMPLETE | 690w script, 102-row beat map, 17 paid assets planned |
-| 5 — Produce video | IN PROGRESS | voice takes submitted |
-| 6 — 33 thumbnails | pending | |
+| 5 — Produce video | ✅ COMPLETE | final.mp4 285.6s + short-teaser.mp4; 100 beats; 24cr clips + 8.9cr voice |
+| 6 — 33 thumbnails | IN PROGRESS | |
 | 7 — Posting packages | pending | |
 | 8 — Cost report | pending | |
 | 9 — Overdrive | pending | |

@@ -16,3 +16,5 @@
 - P3: Official pages 403 direct fetch → verified via domain-restricted searches returning own-domain content; method disclosed in dossier.
 - P4: Beat map resolves 113 visual changes into 17 paid assets + free local kinetic text/busts (below the 40-60 asset guideline) — deliberate budget degradation per Rule 4 while keeping the ≤3s cut rule intact.
 - P5: Voice = preset "Andre" (male, big-brother coach energy). Workflow SKILL.md says user picks the voice; brief's Operating Rule 1 (full autonomy) overrides — logged.
+- P5: seed_speech total speech = 221.7s (reads ~186wpm) → atempo 0.90 slowdown + ~28s designed visual-only pauses + 10s branded end card = 285.6s final (inside 300±15). S6 audio-truncation bug caught in first assembly (beat cap vs -shortest) and fixed by adding beats.
+- P5: Final cut = 100 beats, max hold 3.0s, 1280×720@30fps, 40.6MB. Teaser = first 35s center-cropped to 9:16 1080×1920 (local, free).
