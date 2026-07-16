@@ -37,7 +37,7 @@ def CA(img, w=1.0, src_dir=G):       return dict(m="card", src=f"{src_dir}/{img}
 def B(name, w=1.0):                  return dict(m="kb", src=f"{G}/bust-{name}.png", w=w, z="in")
 
 SEG = {
- 1: [C("V1.mp4",0.0,1.0), CA("K1.png",0.8), C("V1.mp4",1.6,0.8,"z"), CA("K2.png",0.8), CA("K3.png",1.0), B("shock",0.9)],
+ 1: [C("V1B.mp4",0.0,1.0), C("V1B.mp4",1.4,0.9,"z"), C("V1B.mp4",2.4,0.9), CA("K1.png",0.8), CA("K2.png",0.8), CA("K3.png",0.9), B("shock",0.8)],
  2: [B("think",0.9), CA("K4.png",1.1), KB("Z10.png",0.9), KB("Z6.png",1.0), KB("Z6.png",0.8,"out"), CA("K5.png",1.0), B("point",0.9), CA("KRING.png",0.7)],
  3: [CA("K6.png",0.9), KB("Z1.png",1.1), KB("Z2.png",1.1), KB("Z3.png",1.1), CA("K7.png",1.0), KB("Z4.png",1.1),
      C("V2.mp4",0.0,1.1), C("V2.mp4",2.8,1.1), C("V2.mp4",5.4,1.1), C("V4.mp4",0.0,1.0,"z"), B("shock",0.8), B("excited",0.9),

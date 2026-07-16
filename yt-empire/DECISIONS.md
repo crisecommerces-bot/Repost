@@ -21,3 +21,4 @@
 - P6: Thumbnails composited locally (busts from master sheet + one 2cr AI objects grid + Anton text) → pixel-identical avatar across all 35, zero spelling defects. Bugs caught by eyeballing: persisting IM stroke tinted captions, bar overlapped glyphs, `$` shell-expansion ate "$56"/"$1" — all fixed and re-verified.
 - P9: Channel trailer produced for ~0.8cr (1 VO take + 100% reused visuals, local assembly).
 - P5-QC: virality_predictor caps input at 16s → ran on the 15s hook cut (matches the brief's hook-gate purpose). Upload path: presigned PUT executed by the Actions relay (sandbox can't reach upload.higgsfield.ai). media_confirm failed once ("Something went wrong") → immediate retry succeeded.
+- P5-QC: Hook scored 37/100 (weak) on the Virality Predictor; sustain 81 → regenerated ONLY the opening clip once (V1B, 1.2cr), reworked segment-1 to motion-first with text cards after 5s, reassembled (final v2 = 285.2s). One iteration per brief; predictor billed 0 credits.
