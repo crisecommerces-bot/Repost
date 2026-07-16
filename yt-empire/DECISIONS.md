@@ -14,3 +14,5 @@
 - P2: pfp verified legible at 98×98. Watermark = 150×150 pfp derivative.
 - P3: Tonal, Eight Sleep = referral-only (closed to affiliates) → dropped. Legion: no public terms → dropped. Force USA: rate not public → dropped per no-fabrication rule. Final: Speediance (primary), FitBudd + ABC Trainerize (backups), all own-domain verified.
 - P3: Official pages 403 direct fetch → verified via domain-restricted searches returning own-domain content; method disclosed in dossier.
+- P4: Beat map resolves 113 visual changes into 17 paid assets + free local kinetic text/busts (below the 40-60 asset guideline) — deliberate budget degradation per Rule 4 while keeping the ≤3s cut rule intact.
+- P5: Voice = preset "Andre" (male, big-brother coach energy). Workflow SKILL.md says user picks the voice; brief's Operating Rule 1 (full autonomy) overrides — logged.
