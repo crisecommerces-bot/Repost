@@ -1,6 +1,8 @@
 name: asset-relay
 on:
-  workflow_dispatch: {}
+  push:
+    branches: ["claude/youtube-studio-build-xiu1x4"]
+    paths: ["yt-empire/.relay/**"]
 permissions:
   contents: write
 jobs:
