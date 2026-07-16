@@ -2,7 +2,7 @@
 
 ## 1) Higgsfield credits (from the `transactions` ledger — the source of truth)
 
-Starting balance **105.5** (01:50:02Z) · Budget cap (AUTO 60%) **63.3** · **Total spent: 35.8 credits (57% of cap)** — incl. post-QC hook regeneration (1.2) + channel trailer VO (0.8); Virality Predictor billed 0
+Starting balance **105.5** (01:50:02Z) · Budget cap (AUTO 60%) **63.3** · **Total spent: 43.8 credits (69% of cap)** — incl. post-QC hook regeneration (1.2) + channel trailer VO (0.8); Virality Predictor billed 0
 
 ⚠️ Balance reconciliation: ending balance reads **271.85** because a **+200 "Credit Package" grant hit the account at 02:39:14Z** (account auto top-up — not this session's doing, and no purchase was triggered by this build; flag it to billing if unexpected). Netting that out: 105.5 − 35.8 = 69.7 expected vs 269.85 − 200 = 69.85 observed — 0.15cr discrepancy in your favor (likely display rounding of the starting balance).
 
@@ -22,7 +22,8 @@ Starting balance **105.5** (01:50:02Z) · Budget cap (AUTO 60%) **63.3** · **To
 | P5-QC | Hook regeneration V1B (post virality QC) | generate_video → seedance1_5 | 1.2 |
 | P9 | Channel trailer VO | generate_audio → seed_speech | 0.8 |
 | P5-QC | Virality Predictor (hook analysis) | virality_predictor | 0 (not billed) |
-| | **TOTAL** | | **35.8** |
+| FIX | Hook anatomy regen V1C + scale-scene regen (SF-V3B/V3B discarded for hex-text leak, SF-V3C/V3C shipped) | nano_banana ×2 + seedance1_5 ×3 | 8.0 |
+| | **TOTAL** | | **43.8** |
 
 ### Totals per phase
 P2 brand: 4.0 · P5 video: 27.8 · P6 thumbnails: 2.0 · P1/P3/P4/P7/P8: 0
@@ -45,5 +46,5 @@ P2 brand: 4.0 · P5 video: 27.8 · P6 thumbnails: 2.0 · P1/P3/P4/P7/P8: 0
 ## 3) Summary block
 - **Wall-clock:** ~60 min (01:50 → ~02:50 UTC)
 - **Assets produced:** 129 files (1 channel identity kit, 33-idea research pack, 1 verified affiliate dossier, 1 produced 4:46 video + 9:16 teaser, 35 thumbnails + contact sheet, 33 posting packages, cost report, overdrive kit)
-- **Credits: 35.8 spent of 63.3 budget (105.5 starting balance)** — 27.5 under cap
+- **Credits: 43.8 spent of 63.3 budget (105.5 starting balance)** — 19.5 under cap (incl. one user-feedback fix round)
 - **Cost to clone this whole channel** (33 videos, this pipeline, assumptions: same asset reuse, actual billed rates, no music, 720p): ≈ **930 Higgsfield credits + ~30–60 Claude sessions of this size**, i.e. on a Plus/Max stack: **roughly one month of subscriptions — not thousands of dollars of production.**

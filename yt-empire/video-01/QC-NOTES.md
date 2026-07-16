@@ -18,5 +18,6 @@
 
 ## Known compromises (logged in DECISIONS.md)
 - 480p AI clips lanczos-upscaled to 720p (flat vector art hides this well; check on a large screen)
+- FIXED after first review: hook extra-limb artifact, dark bust/wide-shot eyes, zoompan shake (see DECISIONS.md fix round)
 - No lip-sync on the mascot (budget); mascot reads as animated host, not talking head
 - Silence (no music bed): add a -14 LUFS low-key track in an editor if desired — I could not generate music (no standalone music model on this MCP)
