@@ -19,3 +19,5 @@
 - P5: seed_speech total speech = 221.7s (reads ~186wpm) → atempo 0.90 slowdown + ~28s designed visual-only pauses + 10s branded end card = 285.6s final (inside 300±15). S6 audio-truncation bug caught in first assembly (beat cap vs -shortest) and fixed by adding beats.
 - P5: Final cut = 100 beats, max hold 3.0s, 1280×720@30fps, 40.6MB. Teaser = first 35s center-cropped to 9:16 1080×1920 (local, free).
 - P6: Thumbnails composited locally (busts from master sheet + one 2cr AI objects grid + Anton text) → pixel-identical avatar across all 35, zero spelling defects. Bugs caught by eyeballing: persisting IM stroke tinted captions, bar overlapped glyphs, `$` shell-expansion ate "$56"/"$1" — all fixed and re-verified.
+- P9: Channel trailer produced for ~0.8cr (1 VO take + 100% reused visuals, local assembly).
+- P5-QC: virality_predictor caps input at 16s → ran on the 15s hook cut (matches the brief's hook-gate purpose). Upload path: presigned PUT executed by the Actions relay (sandbox can't reach upload.higgsfield.ai). media_confirm failed once ("Something went wrong") → immediate retry succeeded.

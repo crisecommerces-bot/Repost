@@ -10,8 +10,8 @@ Session start (UTC): 2026-07-16
 | 4 — Script + beat map | ✅ COMPLETE | 690w script, 102-row beat map, 17 paid assets planned |
 | 5 — Produce video | ✅ COMPLETE | final.mp4 285.6s + short-teaser.mp4; 100 beats; 24cr clips + 8.9cr voice |
 | 6 — 33 thumbnails | ✅ COMPLETE | 33 + 01A/01B variants + contact sheet; local composite, 2cr objects sheet only |
-| 7 — Posting packages | IN PROGRESS | |
-| 8 — Cost report | pending | |
-| 9 — Overdrive | pending | |
+| 7 — Posting packages | ✅ COMPLETE | 33 packages + _master.csv; FTC line + {{AFFILIATE_LINK}} verified in all |
+| 8 — Cost report | ✅ COMPLETE | 33.8cr spent of 63.3 cap; ccusage $67.52 API-rate (subscription-covered) |
+| 9 — Overdrive | ✅ COMPLETE | calendar, next-video prompt, trailer script + trailer.mp4 (28.8s), upload checklist, growth playbook |
 
 If resuming: read this file, resume at first non-complete phase.
