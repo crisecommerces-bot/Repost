@@ -1,0 +1,55 @@
+{
+  "voice": {
+    "model": "text2speech_v2/seed_speech",
+    "voice": "Andre (preset f1e8226e-2248-4d5f-b43c-0a79e9949dbf)",
+    "S1": "25908fce-3884-4841-919b-a6a4a46bcd39",
+    "S2": "75624cd3-9d08-41cc-b065-26845b891cc0",
+    "S3": "eca83679-5e57-4476-bbb1-78fbb127ff3e",
+    "S4": "bba7524c-b800-4a44-a568-11d67539f755",
+    "S5": "3e90b619-f5a0-4fcd-b776-3f92f6457501",
+    "S6": "e3ea9355-d885-4905-9d11-e766cc344966",
+    "S7": "ae5fcc0c-41ab-4a14-b7f0-5b6f2edb33f3",
+    "S8": "8b39e82b-946e-480b-9485-3624251757e2"
+  },
+  "start_frames": {
+    "SF-V1_scoop": "9d35965c-5166-420d-a7cb-7f6886f55e74",
+    "SF-V2_battery": "a8715cd7-ccff-4a59-857c-034ee5be9f99",
+    "SF-V3_scale": "b44969a9-d040-41b2-b2b7-fa8bb5f06aec",
+    "SF-V4_bench": "e0bbc23c-b805-4288-89ad-7c34cab5676c",
+    "SF-V5_mythchop": "c637cd38-6843-4609-aead-6bc3013508d0",
+    "SF-V6_homegym": "36199841-347b-4e1b-9e78-d3c56f0cb562"
+  },
+  "stills": {
+    "N5_gauge_avatar": "58c9af80-6a73-459d-a5b8-4b78da429faf",
+    "Z1_molecule": "a0c86994-266a-41a5-9206-c52a763ed303",
+    "Z2_liver_factory": "d432027a-79c2-4fd8-aef4-55c5692b1b3e",
+    "Z3_steak_plate": "4951023b-589c-46e4-a8e7-550c3d75586d",
+    "Z4_cell_grid": "c3c042aa-6e0f-43ba-800c-e68aeae2d17d",
+    "Z6_clipboard": "470b720f-89d5-4824-9a1b-da02054e84e1",
+    "Z7_rugby": "469374f7-71a6-4aac-87c0-ad74a92edc5",
+    "Z8_salt": "fc9d9766-9eeb-4309-b5a3-d4965dc2e611",
+    "Z9_tubs": "c941a5b9-7649-4a44-b859-54477df34f73",
+    "Z10_fuel_gauge": "776b6ba0-ed70-4c57-a7ac-08bb8ac799c8",
+    "Z11_staircase": "53e157ce-3270-4acf-bb7f-7aab363f78bf"
+  },
+  "character_master": "a9eb241b-70fb-4351-b2f9-6d9559a04fdf",
+  "clips": {
+    "V1_scoop_4s": "ecbd457d-fb8d-4da1-a499-d15225cd06dc",
+    "V2_battery_8s": "1f48b05a-f5c6-4eca-97a4-a7989eaf7d3c",
+    "V3_scale_8s": "10a8666f-9760-458f-91e4-37ff62d26970",
+    "V4_bench_8s": "28e82b1a-0ed4-43e0-8efb-c4fcd40a226d",
+    "V5_mythchop_8s": "6c925815-7420-4200-9dfb-01d7a29bc77e",
+    "V6_homegym_4s": "ff5bbbf4-3f1d-410c-a032-d74f52c763c5"
+  },
+  "objects_sheet": "65afef11-a1bd-4899-a6ec-4cdd4fb3154b",
+  "voice_durations_sec": {
+    "S1": 10.632,
+    "S2": 17.232,
+    "S3": 47.424,
+    "S4": 42.24,
+    "S5": 38.424,
+    "S6": 18.624,
+    "S7": 37.632,
+    "S8": 9.48
+  }
+}
